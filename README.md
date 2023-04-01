@@ -4,10 +4,10 @@ Schmidt-Samoa Cryptography implements the SS cryptosystem using C and the GMP in
 ## If you are a current CSE 13S student, please do not look at my source code!
 
 ## Build
-There are several executables that can be created in this project, the main ones being 'keygen', 'encrypt', and 'decrypt'. Typing 'make' or 'make all' will build all of these executables and link all of the object files ('randstate.o', 'numtheory.o', and 'ss.o') necessary for those executables, within the 'asgn5' directory. Typing in 'make keygen', 'make encrypt' or 'make decrypt' will build those executable binary files and their linked object files individually.
+There are several executables that can be created in this project, the main ones being 'keygen', 'encrypt', and 'decrypt'. Typing 'make' or 'make all' will build all of these executables and link all of the object files ('randstate.o', 'numtheory.o', and 'ss.o') necessary for those executables. Typing in 'make keygen', 'make encrypt' or 'make decrypt' will build those executable binary files and their linked object files individually.
  
 ## Cleaning
-Type 'make clean' to remove the executable binary files 'keygen', 'encrypt', and 'decrypt', and all of the .o files from the Assignment 5 directory.
+Type 'make clean' to remove the executable binary files 'keygen', 'encrypt', and 'decrypt', and all of the .o files.
 
 ## Run Options
 ### Keygen
